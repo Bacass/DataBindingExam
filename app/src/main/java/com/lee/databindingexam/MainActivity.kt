@@ -28,7 +28,11 @@ class MainActivity : AppCompatActivity(), MainInterface{
          */
         mBinding?.mainInterface = this
 
-
+        /**
+         * 레이아웃에 변수를 만들고 곧바로 접근할수있다.
+         */
+        mBinding?.mIntValue = 300
+        mBinding?.mStringValue = "스트링 변수에 바로 접근"
 
     }
 
